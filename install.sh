@@ -274,8 +274,8 @@ download_pc(){
 
     #wget https://raw.githubusercontent.com/lanhebe/proxypool/master/config.yaml
     #wget https://raw.githubusercontent.com/lanhebe/proxypool/master/source.yaml
-    https://raw.githubusercontent.com/hsueh1972/test/main/source.yaml
-    https://raw.githubusercontent.com/hsueh1972/test/main/config.yaml
+    wget https://raw.githubusercontent.com/hsueh1972/test/main/source.yaml
+    wget https://raw.githubusercontent.com/hsueh1972/test/main/config.yaml
    
     cat > ./config.yaml <<-EOF
     domain: $your_domain
